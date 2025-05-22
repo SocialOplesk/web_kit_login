@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - MiApp</title>
+    <link rel="stylesheet" href="./login.css"/>
+</head>
+<body>
+    <div class="login-container">
+        <!-- HEADER -->
+        <div class="login-header">
+            <h1>¡Bienvenido!</h1>
+            <p>Inicia sesión para continuar</p>
+            <div class="user-icon">👤</div>
+        </div>
+
+        <!-- FORMULARIO -->
+        <form class="login-form">
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Recordarme</label>
+            </div>
+
+            <button type="submit" class="login-button">Iniciar Sesión</button>
+
+            <div class="login-links">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <a href="#">Crear cuenta nueva</a>
+            </div>
+        </form>
+
+        <!-- OPCIONES ALTERNATIVAS -->
+        <div class="alternative-login">
+            <a href="#" class="social-icon">f</a>
+            <a href="#" class="social-icon google">G</a>
+            <a href="#" class="social-icon twitter">t</a>
+            <span class="social-text">O inicia con redes sociales</span>
+        </div>
+    </div>
+</body>
+</html>
